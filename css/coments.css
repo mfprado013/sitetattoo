@@ -1,0 +1,50 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  box-shadow: 0 4px 4px 0 rgba(150, 148, 148, 0.336);
+  transition: 0.3s;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(150, 148, 148, 0.336);
+}
+
+.container {
+  padding: 8px 80px;
+}
+
+.container span {
+  padding: 10px 50px;
+  margin-left: -50px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(150, 148, 148, 0.336);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+#info {
+  animation: translateY(100);
+}
+
+.commits {
+  margin-top: 45%;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.commits h1 {
+  justify-content: center;
+  display: flex;
+  font-size: 3rem;
+}

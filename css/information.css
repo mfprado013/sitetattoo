@@ -1,0 +1,9 @@
+.information {
+  margin-bottom: 25px;
+  position: absolute;
+}
+.information h1 {
+  justify-content: center;
+  display: flex;
+  font-size: 3rem;
+}
